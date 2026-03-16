@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Simple layout</title>
+  
+  <style>
+  body{
+    margin:0;
+    font-family:Arial;
+    }
+  
+  header{
+    background:#333;
+    color:white;
+    padding:15px;
+    text-align:center;
+  }
+  
+  .container{
+    display:flex;
+    height:90vh;
+  }
+  
+  .sidebar{
+    width:200px;
+    background:#444;
+    color:white;
+    padding:20px;
+  }
+  
+  .sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    margin:10px 0;
+  }
+  
+  .content{
+    flex:1;
+    padding:20px;
+    background:#f4f4f4;
+  }
+  
+</style>
+  
+</head>
+
+<body>
+  <header>
+    <h2>My dashboard</h2>
+  </header>
+  
+  <div class="container">
+    
+    <div class="sidebar">
+      
+      <h3>Menu</h3>
+      
+      <a href="#">home</a>
+      <a href="#">Employees</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+      
+    </div>
+    
+    <div class="content">
+      
+      <h2>Welcome</h2>
+      
+      <p>
+        This is a simple dashboard with
+        header, sidebar, and content area.
+      </p>
+      
+      <p>
+You can add more sections here like tables, forms or reports.
+</p>
+      
+    </div>
+    
+  </div>
+  
+</body>
