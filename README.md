@@ -1,7 +1,5 @@
 # dashboard-layout
 
-Clean and responsive dashboard layout using HTML and CSS.
-
 **Technologies:** HTML, CSS
 
 **Description:**  
